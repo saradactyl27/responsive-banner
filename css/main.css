@@ -5,6 +5,7 @@ html {
 body {
   background-color: #495562;
   color: #fff;
+
 }
 
 .btn-ghost {
@@ -16,6 +17,14 @@ body {
   border: 3px solid #fff;
   background-color: #fff;
   color: black;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+img {
+  max-height: 500px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -31,12 +40,14 @@ body {
     background-color: #fff;
   }
 
-  img {
+  header {
     position: relative;
   }
 
   .content {
     position: absolute;
+    bottom: 0;
+    left: 10px;
   }
 
 }
