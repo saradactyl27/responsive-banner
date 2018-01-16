@@ -1,3 +1,42 @@
 html {
-  font-family: 'Georgia', serif;
+  font-family: Georgia;
+}
+
+body {
+  background-color: #495562;
+  color: #fff;
+}
+
+.btn-ghost {
+  color: #fff;
+  border: 3px solid #97a49b;
+}
+
+.btn-ghost:hover {
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: black;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    background-color: #fff;
+  }
+
+  img {
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+  }
+
 }
