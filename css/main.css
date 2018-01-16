@@ -1,11 +1,10 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia, serif;
 }
 
 body {
   background-color: #495562;
   color: #fff;
-
 }
 
 .btn-ghost {
@@ -14,17 +13,21 @@ body {
 }
 
 .btn-ghost:hover {
-  border: 3px solid #fff;
-  background-color: #fff;
+  border: 3px solid #efefef;
+  background-color: #efefef;
   color: black;
 }
 
 .banner {
+  max-height: 500px;
+}
+
+header {
   overflow: hidden;
 }
 
-img {
-  max-height: 500px;
+.content {
+  background-image: linear-gradient(to top, rgba(73, 85, 98, .9), transparent);
 }
 
 @media only screen and (min-width: 38em) {
@@ -38,16 +41,22 @@ img {
 
   body {
     background-color: #fff;
+
   }
 
   header {
     position: relative;
+    max-height: 500px;
   }
 
   .content {
     position: absolute;
     bottom: 0;
-    left: 10px;
+    left: 0;
+  }
+
+  .btn-ghost {
+    border: 3px solid #fff;
   }
 
 }
